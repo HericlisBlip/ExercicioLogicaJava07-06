@@ -8,8 +8,10 @@ public class Exercicio2 {
 
         int[] digitoUsuario = new int[3] ;
 
-        digitoUsuario [0]= Integer.parseInt(JOptionPane.showInputDialog("Vamos colocar os números em ordem!"
-                + "\nDigite o primeiro número inteiro: "));
+        
+        JOptionPane.showMessageDialog(null, "Vamos colocar os números em ordem!");
+        
+        digitoUsuario [0]= Integer.parseInt(JOptionPane.showInputDialog(" Digite o primeiro número inteiro:"));
 
         digitoUsuario [1]= Integer.parseInt(JOptionPane.showInputDialog("Digite outro número: "));
 
