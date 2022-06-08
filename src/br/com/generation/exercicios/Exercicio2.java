@@ -10,12 +10,10 @@ public class Exercicio2 {
 
         
         JOptionPane.showMessageDialog(null, "Vamos colocar os números em ordem!");
+        for (int i = 0; i<=2; i++ ) {
+        	digitoUsuario [i]= Integer.parseInt(JOptionPane.showInputDialog(" Digite um número inteiro:"));
+        }
         
-        digitoUsuario [0]= Integer.parseInt(JOptionPane.showInputDialog(" Digite o primeiro número inteiro:"));
-
-        digitoUsuario [1]= Integer.parseInt(JOptionPane.showInputDialog("Digite outro número: "));
-
-        digitoUsuario [2]= Integer.parseInt(JOptionPane.showInputDialog("Digite o último número: "));
 
         int auxiliar = 0;
 
